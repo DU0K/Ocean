@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    color: rgb(61, 248, 186);
+    font-size: 0.7em;  
+    line-height: 0.5em;
+    height: 100%;
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat, repeat;
+    background-size: 100%;
+    background-position-y: 0%;
+    background-color: rgb(78, 78, 78);
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+      "header header header header"
+      "main main main aside"
+      "footer footer footer footer";
+    grid-template-rows: 80px 1fr 200px;
+    grid-template-columns: repeat( 3, 1fr ) 240px;
+    grid-gap: 1em;
+}
+
+header {
+    grid-area: header;
+    background-color: rgba(78, 78, 78, 0.80);
+}
+
+.logo {
+    display: block;
+    float: left;
+    height: 70px;
+    width: 270px;
+    background: url( 'assets/Logo.png' ) no-repeat center;
+    background-size: contain;
+    margin: 5px;
+    text-indent: -9999px;
+}
+
+.games {
+    display: block;
+    float: left;
+    height: 70px;
+    width: 270px;
+    background: url( 'assets/Game.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: 0.4%;
+    margin-left: 71%;
+    text-indent: -9999px;
+}
+
+.side {
+    height: 500px;
+    width: 280px;
+    margin-top: -8%;
+    margin-left: 0%;
+    background-color: rgb(78, 78, 78, 0.60);
+    background-size: contain;
+    display: block;
+    text-indent: -9999px;
+}
+
+.side_1 {
+    margin-top: -26%;
+    margin-left: 1%;
+}
+
+.games_menu {
+    height: 400px;
+    width: 800px;
+    margin-top: -0%;
+    margin-left: 30%;
+    background-color: rgb(78, 78, 78, 0.60);
+    background-size: contain;
+    display: block;
+    text-indent: -9999px;
+}
+
+.games1 {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 450px;
+    background: url( 'assets/Game.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: -21%;
+    margin-left: 33%;
+    text-indent: -9999px;
+}
+
+.games3 {
+    display: block;
+    float: left;
+    height: 75px;
+    width: 400px;
+    background: url( 'assets/s_menu.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: -15%;
+    margin-left: 45%;
+    text-indent: -9999px;
+}
+
+.snake_menu {
+    height: 400px;
+    width: 800px;
+    margin-top: -32.65%;
+    margin-left: 30%;
+    background-color: rgb(78, 78, 78, 0.60);
+    background-size: contain;
+    display: block;
+    text-indent: -9999px;
+}
+
+.g_menu {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 500px;
+    background: url( 'assets/s_menu.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: -21%;
+    margin-left: 44%;
+    text-indent: -9999px;
+}
+
+.g_c {
+    display: block;
+    float: left;
+    height: 70px;
+    width: 300px;
+    background: url( 'assets/s_c.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: -15%;
+    margin-left: 46%;
+    text-indent: -9999px;
+}
+
+.g_h {
+    display: block;
+    float: left;
+    height: 70px;
+    width: 300px;
+    background: url( 'assets/s_h.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: -11.5%;
+    margin-left: 46.5%;
+    text-indent: -9999px;
+}
+
+.g_s {
+    display: block;
+    float: left;
+    height: 70px;
+    width: 300px;
+    background: url( 'assets/s_s.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: -8%;
+    margin-left: 47%;
+    text-indent: -9999px;
+}
+
+.Pa {
+    display: block;
+    height: 80px;
+    width: 350px;
+    background: url( 'assets/Play_Again.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: 5%;
+    margin-left: 70%;
+    text-indent: -9999px;
+}
+
+.Back {
+    display: block;
+    height: 55px;
+    width: 350px;
+    background: url( 'assets/Back.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: 1%;
+    margin-left: 67.5%;
+    text-indent: -9999px;
+}
+
+.streep {
+    display: block;
+    float: left;
+    height: 70px;
+    width: 270px;
+    background: url( 'assets/Streep.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: -3.8%;
+    margin-left: 78%;
+    text-indent: -9999px;
+}
+
+.sideT {
+    height: 500px;
+    width: 280px;
+    margin-top: -15.1%;
+    margin-left: 0%;
+    background-color: rgb(78, 78, 78, 0.60);
+    background-size: contain;
+    display: block;
+    text-indent: -9999px;
+}
+
+.side_1T {
+    height: 500px;
+    width: 280px;
+    margin-top: -26.03%;
+    margin-left: 1%;
+    display: block;
+}
+
+.Tracks {
+    display: block;
+    float: left;
+    height: 70px;
+    width: 140px;
+    background: url( 'assets/Tracks.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: -4.6%;
+    margin-left: 83.7%;
+    text-indent: -9999px;
+}
+
+.Tracks2 {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 200px;
+    background: url( 'assets/Tracks.png' ) no-repeat center;
+    background-size: contain;
+    margin-top: -31%;
+    margin-left: 45%;
+    text-indent: -9999px;
+}
+
+.Track_Menu {
+    height: 600px;
+    width: 450px;
+    margin-top: -5%;
+    margin-left: 38.3%;
+    background-color: rgb(78, 78, 78, 0.60);
+    background-size: contain;
+    display: block;
+    text-indent: -9999px;
+}
+
+.track1 {
+    margin-left: 42.2%;
+    margin-top: 1%;
+}
+
+.T1 {
+    margin-left: 47.7%;
+    margin-top: -24%;
+}
